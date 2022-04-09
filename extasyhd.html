@@ -1,18 +1,74 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>afterglow player</title>
-    <script src="//cdn.jsdelivr.net/npm/afterglowplayer@1.x"></script>
-  </head>
-  <body>
-    <video class="afterglow" id="myvideo" width="1280" height="900" poster="/path/to/myposter.jpg">
-      <source type="video/mp4" src="https://bhabhiflix.github.io/bhabhiflix/extasyhd.m3u8" />
-    </video>
-  </body>
-<html>
+<link href="https://cdn.jsdelivr.net/gh/CDNSFree2/Plyr/plyr.css" rel="stylesheet"></link>
 
-<H1>Advertisement<H1>
-<!-- Start JuicyAds Float Ad -->
-<script type="text/javascript">juicy_adzone = '974755';</script>
-<script type="text/javascript" src="https://poweredby.jads.co/js/jfc.js" charset="utf-8"></script>
-<!-- End JuicyAds Float Ad -->
+<!--Add a Simple HTML5 Video tag-->
+
+<div id="container">
+
+  <video class="vid1" controls="" data-poster="https://hosty.xxx/i/71a450d0c915ca2c932083e863b5897648db2ecc.jpg">
+
+    <!-- Video files -->
+
+    <source size="720" src="https://bhabhiflix.github.io/bhabhiflix/extasyhd.m3u8" type="video/mp4"></source>
+
+    <!-- Caption files -->
+
+    <track default="" kind="captions" label="English" src="####" srclang="en"></track>
+
+    <track kind="captions" label="Français" src="###" srclang="fr"></track>
+
+  </video>
+
+</div>
+
+<script src="https://cdn.plyr.io/3.6.12/plyr.polyfilled.js"></script>
+
+<script>
+
+  var controls =
+
+[
+
+    'play-large', // The large play button in the center
+
+   // 'restart', // Restart playback
+
+   // 'rewind', // Rewind by the seek time (default 10 seconds)
+
+    'play', // Play/pause playback
+
+    'progress', // The progress bar and scrubber for playback and buffering
+
+    'current-time', // The current time of playback
+
+    'mute', // Toggle mute
+
+    'volume', // Volume control
+
+    'settings', // Settings menu
+
+    'pip', // Picture-in-picture (currently Safari only)
+
+    'airplay', // Airplay (currently Safari only)
+
+    'fullscreen' // Toggle fullscreen
+
+];
+
+  const player = new Plyr('.vid1',{controls});
+
+</script>
+
+<style>
+
+  :root {
+
+  --plyr-color-main: #116372;
+
+    --plyr-video-control-color	:#e8ffba;
+
+}
+
+</style>
+
+<h1>Extasy Live TV </h1>
+<h3>t.me/pocketporn_app</h3>
